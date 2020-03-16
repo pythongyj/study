@@ -13,37 +13,52 @@
 </head>
 
 <body>
-  <div id="app"></div>
+  <div data-app id="main"></div>
   <script>
     // docsify 的配置
     window.$docsify = {
+      el: "#main",
       name: '学习笔记',
-      // nameLink: '/',
+      nameLink: '/',
+      // 渲染github图标
       repo: '',
-      basePath: '/',
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
+      // basePath: '/',
       // 开启定制侧边栏
       loadSidebar: true,
       // 自动添加头部信息 需要与loadSidebar: true一起设置
-      // autoHeader: true,
+      autoHeader: true,
       // 侧边栏显示的最大标题（目录）数
       subMaxLevel: 6,
       // 开启定制导航栏
       loadNavbar: true,
       // 开启封面页 可自定义文件名   coverpage: xxx.md
       coverpage: true,
+      coverpage: '_coverpage.md',
       // 默认进入的页面  （设置为首页）
-      // homepage:
-      //   '/css.md',
+      homepage:
+        'html/html.md',
       // 小屏设备下合并导航栏到侧边栏。
       // mergeNavbar: true
       // 主题颜色
       // themeColor: '#008c8c'
+      // 完整配置参数
       search: {
-        placeholder: {
-          '*/': '关键字搜索'
-        },
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        paths: 'auto',
+        placeholder: '关键字搜索',
+        noData: 'No Results!',
+        // 搜索标题的最大程级, 1 - 6
+        depth: 6
       },
-      basePath: '/study/'
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
+      formatUpdated: function (time) {
+        // ...
+
+        return time;
+      },
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
