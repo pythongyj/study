@@ -7,7 +7,20 @@
   * [js高级](js/js高级.md)
   * [js正则](js/js正则.md)
   * [webApi](js/WebAPI.md)
+  * [ES6](js/es6.md)
 * JQuery
   * [目录](JQurey/_sidebar.md)
   * [JQuery基础](JQurey/jQurey笔记.md)
-* [Vue](vue/vue.md)
+* node
+  * [目录](node/_sidebar.md)
+  * [nodejs基础](node/node.md)
+* vue
+  * [目录](vue/_sidebar.md)
+  * [vue基础](vue/vue基础.md)
+  * [vue进阶](vue/vue.md)
+  * [vuex基础](vue/vuex.md)
+* webpack
+  * [目录](webpack/_sidebar.md)
+  * [配置](webpack/peizhi.md)
+  * [webpack基础](webpack/webpack.md)
+* [其他](qita/_sidebar.md)

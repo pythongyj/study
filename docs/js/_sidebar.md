@@ -4,3 +4,4 @@
   * [js高级](js/js高级.md)
   * [js正则](js/js正则.md)
   * [webApi](js/WebAPI.md)
+  * [ES6](js/es6.md)
