@@ -7,4 +7,7 @@
   * [js高级](js/js高级.md)
   * [js正则](js/js正则.md)
   * [webApi](js/WebAPI.md)
+* JQuery
+  * [目录](JQurey/_sidebar.md)
+  * [JQuery基础](JQurey/jQurey笔记.md)
 * [Vue](vue/vue.md)
