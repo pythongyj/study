@@ -24,4 +24,5 @@
   * [配置](webpack/peizhi.md)
   * [webpack基础](webpack/webpack.md)
   * [webpack配置](webpack/webpack进阶.md)
+  * [自动化测试](webpack/automatiTest.md)
 * [其他](qita/_sidebar.md)
