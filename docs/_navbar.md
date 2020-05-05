@@ -27,4 +27,5 @@
   * [自动化测试](webpack/automatiTest.md)
   * [容器化运维](webpack/容器化运维.md)
   * [持续集成与持续部署](webpack/deploy.md)
+  * [文档管理](webpack/dims.md)
 * [其他](qita/_sidebar.md)
