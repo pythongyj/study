@@ -69,7 +69,7 @@
 
 按照软件工程自底而上的概念，前端测试一般分为单元测试（Unit Testing ）、集成测试（Integration Testing）和端到端测试（E2E Testing）。从下面的图可以看出，从底向上测试的复杂度将不断提高，另一方面测试的收益反而不断降低的。
 
-![img](assets/16415de723a8d411.png)
+![img](../assets/自动化测试/16415de723a8d411.png)
 
 > 关于软件测试分类，可见[软件测试的分类](#软件测试的分类)
 
@@ -81,7 +81,7 @@
 
 经过几年的前端洗礼之后，就已经过了慌乱的年纪，再也不会盲目地追寻新技术，而转向关注技术背后解决的痛点，原理等。
 
-![img](assets/v2-af09ebe8167f63a49ea49287fe04526f_hd-20190706122102737.jpg)
+![img](../assets/自动化测试//v2-af09ebe8167f63a49ea49287fe04526f_hd-20190706122102737.jpg)
 
 #### 如何选择测试框架
 
@@ -177,7 +177,7 @@
 
 npm trends: [点击链接](https://www.npmtrends.com/mocha-vs-jest-vs-ava-vs-jasmine-core)
 
-![image-20190706101634263](assets/image-20190706101634263.png)
+![image-20190706101634263](../assets/自动化测试//image-20190706101634263.png)
 
 **Karma**
 
@@ -247,7 +247,7 @@ AVA 它的优势是 JavaScript 的异步特性和并发运行测试.
 
 npm trends: [点击链接](https://www.npmtrends.com/cypress-vs-nightmare-vs-nightwatch-vs-testcafe-vs-webdriverio)
 
-![image-20190706100636750](assets/image-20190706100636750.png)
+![image-20190706100636750](../assets/自动化测试//image-20190706100636750.png)
 
 
 
@@ -819,13 +819,13 @@ npm run report
 
 形成出来的报告在浏览器中打开：
 
-![image-20190707212821248](assets/image-20190707212821248.png)
+![image-20190707212821248](../assets/自动化测试//image-20190707212821248.png)
 
 
 
 在Vscode中可以安装Live Server这个插件快速打开：
 
-![image-20190707212923919](assets/image-20190707212923919.png)
+![image-20190707212923919](../assets/自动化测试//image-20190707212923919.png)
 
 
 
@@ -946,7 +946,7 @@ yarn add --dev babel-jest @babel/core @babel/preset-env
 
 关于test suite与test case：
 
-![img](assets/w80140jb42.jpg)
+![img](../assets/自动化测试//w80140jb42.jpg)
 
 describe属于 test suite 的描述，而每个 test 或者 it 则描述了每个 test case。
 
@@ -1035,7 +1035,7 @@ Mock函数提供的以下三种特性，在我们写测试代码时十分有用�
 - 设置函数返回值
 - 改变函数的内部实现
 
-![img](assets/8u3cp5kz2s.png)
+![img](../assets/自动化测试//8u3cp5kz2s.png)
 
 举个例子：
 
@@ -1708,11 +1708,11 @@ npx ava --match ='foo *' -  match ='* bar'
 
 默认情况下，AVA使用最小的报告：
 
-[![img](assets/mini-reporter.gif)](https://github.com/avajs/ava/blob/master/media/mini-reporter.gif)
+[![img](../assets/自动化测试//mini-reporter.gif)](https://github.com/avajs/ava/blob/master/media/mini-reporter.gif)
 
 使用该`--verbose`标志启用详细的报告者。除非启用TAP报告，否则始终在CI环境中使用此选项。
 
-[![img](assets/verbose-reporter.png)](https://github.com/avajs/ava/blob/master/media/verbose-reporter.png)
+[![img](../assets/自动化测试//verbose-reporter.png)](https://github.com/avajs/ava/blob/master/media/verbose-reporter.png)
 
 
 
@@ -1724,7 +1724,7 @@ AVA支持TAP格式，因此与任何TAP报告器兼容。使用该`--tap`标志�
 $ npx ava --tap | npx tap-nyan
 ```
 
-[![img](assets/tap-reporter-20190709154342692.png)](https://github.com/avajs/ava/blob/master/media/tap-reporter.png)
+[![img](../assets/自动化测试//tap-reporter-20190709154342692.png)](https://github.com/avajs/ava/blob/master/media/tap-reporter.png)
 
 这里有一些格式：
 
@@ -1860,7 +1860,7 @@ Karma 会监控配置文件中所指定的每一个文件，每当文件发生�
 
 `Server` 是框架的主要组成部分之一，它内部保存了所有的程序运行状态，比如 client 连接，当前运行的单测文件，根据这些数据状态，它提供了下面几个功能， 下图是 server 的结构
 
-![karma_server](assets/TB13X9xLXXXXXXoaXXXDUoU9pXX-902-329.png)
+![karma_server](../assets/自动化测试//TB13X9xLXXXXXXoaXXXDUoU9pXX-902-329.png)
 
 - 监听文件
 - 与 client 进行通讯
@@ -1871,17 +1871,17 @@ Karma 会监控配置文件中所指定的每一个文件，每当文件发生�
 
 client 是单测最终运行的地方，类似一个 web app ， 跟 server 端通讯利用 `socket.io`， 执行单测在一个独立的 `iframe` 中。下面是它的结构图
 
-![karma_impl_client](assets/TB1jTKwLXXXXXX.aXXX0KhCSFXX-619-472.png)
+![karma_impl_client](../assets/自动化测试//TB1jTKwLXXXXXX.aXXX0KhCSFXX-619-472.png)
 
 client 和 server 端通讯采用 `socket.io`
 
 - client 端会发送这些消息
 
-![karma_impl_client_message_c](assets/TB1XXuILXXXXXcAXFXX.hdJKpXX-918-179.png)
+![karma_impl_client_message_c](../assets/自动化测试//TB1XXuILXXXXXcAXFXX.hdJKpXX-918-179.png)
 
 - server 端会发送这些消息
 
-![karma_impl_client_message_s](assets/TB1PvisLXXXXXcqaXXXEHlCNpXX-896-103.png)
+![karma_impl_client_message_s](../assets/自动化测试//TB1PvisLXXXXXcqaXXXEHlCNpXX-896-103.png)
 
 ### 安装Karma
 
