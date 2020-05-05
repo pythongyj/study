@@ -19,8 +19,9 @@
   * [vue基础](vue/vue基础.md)
   * [vue进阶](vue/vue.md)
   * [vuex基础](vue/vuex.md)
-* webpack
+* 前端工程化
   * [目录](webpack/_sidebar.md)
   * [配置](webpack/peizhi.md)
   * [webpack基础](webpack/webpack.md)
+  * [webpack配置](webpack/webpack进阶.md)
 * [其他](qita/_sidebar.md)
