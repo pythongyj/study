@@ -25,4 +25,5 @@
   * [webpack基础](webpack/webpack.md)
   * [webpack配置](webpack/webpack进阶.md)
   * [自动化测试](webpack/automatiTest.md)
+  * [容器化运维](webpack/容器化运维.md)
 * [其他](qita/_sidebar.md)
